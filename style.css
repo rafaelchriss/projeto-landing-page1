@@ -1,0 +1,154 @@
+* {
+    margin: 0px; /* Zera a margem de todos os elementos */
+    font-family: "Inter", serif; /* Define a fonte padrão como "Inter" */
+}
+
+#logo {
+    margin-left: 50px; /* Define a margem esquerda para o logo */
+    margin-top: 50px; /* Define a margem superior para o logo */
+}
+
+#titulo-menusuperior {
+    margin-left: 150px; /* Define a margem esquerda para o título do menu superior */
+    margin-top: 50px; /* Define a margem superior para o título do menu superior */
+}
+
+#texto-menusuperior {
+    margin-left: 150px; /* Define a margem esquerda para o texto do menu superior */
+    margin-top: 35px; /* Define a margem superior para o texto do menu superior */
+    padding-bottom: 100px; /* Define um espaçamento inferior para o texto do menu superior */
+}
+
+#menusuperior {
+    background-image: url(imagens/fundo-menusuperior.svg); /* Define a imagem de fundo do menu superior */
+    background-size: cover; /* Faz com que a imagem de fundo cubra toda a área do menu superior */
+    color: aliceblue; /* Define a cor do texto como aliceblue */
+}
+
+#menuinformacional {
+    background-color: #EAECE5; /* Define a cor de fundo do menu informacional */
+    display: grid; /* Utiliza o grid layout */
+    grid-auto-flow: column; /* Organiza os elementos em colunas automaticamente */
+    grid-template-columns: auto auto auto; /* Define três colunas automáticas */
+}
+
+.icones {
+    margin: 50px 0px 50px 100px; /* Define a margem para os ícones */
+    padding: 25px; /* Define o preenchimento interno para os ícones */
+}
+
+#secaovideo {
+    display: grid; /* Utiliza o grid layout */
+    grid-auto-flow: column; /* Organiza os elementos em colunas automaticamente */
+    grid-template-columns: auto auto; /* Define duas colunas automáticas */
+}
+
+.textoinformativo {
+    display: flex; /* Utiliza o layout flex */
+    align-items: center; /* Alinha os itens ao centro */
+}
+
+#titulovideo {
+    color: #247BA0; /* Define a cor do título do vídeo */
+    margin-top: 50px; /* Define a margem superior para o título do vídeo */
+}
+
+#video {
+    margin: 50px 25px 50px 100px; /* Define a margem para o vídeo */
+}
+
+#carrosel {
+    background-color: #247BA0; /* Define a cor de fundo do carrossel */
+    padding: 50px; /* Define o preenchimento interno do carrossel */
+}
+
+#titulo-carrosel {
+    color: white; /* Define a cor do texto do título do carrossel */
+    text-align: center; /* Alinha o texto ao centro */
+    font-size: 25px; /* Define o tamanho da fonte do título do carrossel */
+}
+
+#div-cards {
+    display: flex; /* Utiliza o layout flex */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    margin: 0; /* Remove a margem existente */
+    gap: 20px; /* Adiciona um espaçamento de 20px entre as imagens */
+}
+
+#div-cards img {
+    margin: 0; /* Remove quaisquer margens anteriores */
+}
+
+.card {
+    margin-left: 50px; /* Define a margem esquerda para os cartões */
+}
+
+.seta {
+    margin-top: 0; /* Remove a margem superior das setas */
+    width: 45px; /* Define a largura das setas */
+    cursor: pointer; /* Define o cursor como ponteiro ao passar sobre as setas */
+}
+.seta-direita{
+    position: relative; /* Define a posição relativa das setas */
+    top: 50%; /* Centraliza verticalmente */
+}
+
+
+#seta-esquerda{
+    display:  none; /* Esconde a seta esquerda */
+}
+
+#bruna{
+    display: none; /* Esconde a imagem da Bruna */
+}
+
+.seta:hover {
+    transform: translateY(-7px); /* Ajusta o posicionamento */
+    transition-duration: 0.5s; /* Define a duração da transição */
+    
+}
+
+#formulario{
+    text-align: center; /* Centraliza o texto */
+
+}
+
+#titulo-formulario{
+font-size: 25px; /* Define o tamanho da fonte */
+margin: 25px; /* Define a margem */
+color: #383838; /* Define a cor do texto */
+
+}
+
+input{
+    width: 300px;  /* Define a largura do campo de entrada */
+    height: 40px; /* Define a altura do campo de entrada */
+    top: 1751px; /* Define a posição superior do campo de entrada */
+    left: 531px; /* Define a posição esquerda do campo de entrada */
+    background-color: #EAECE5; /* Define a cor de fundo do campo de entrada */
+    margin: 15px; /* Define a margem */
+    border: 0px; /* Remove a borda */
+    border-radius: 5px; /* Define o raio da borda */
+    padding: 10px; /* Define o preenchimento interno */
+}
+
+button{
+    background-color: #247BA0; /* Define a cor de fundo do botão */
+    height: 40px; /* Define a altura do campo de entrada */
+    width: 250px;  /* Define a largura do campo de entrada */
+    color:#EAECE5; /* Define a cor do texto */
+    border: 0px; /* Remove a borda */
+    border-radius: 5px; /* Define o raio da borda */
+    margin-bottom: 50px; /* Define a margem inferior */
+    font-weight: bolder; /* Define o peso da fonte */
+    cursor: pointer; /* Define o cursor como ponteiro */
+}
+
+button:hover{
+    background-color: #1B98E0; /* Define a cor de fundo ao passar o mouse */
+    color: white; /* Define a cor do texto ao passar o mouse */
+    transform: translateY(-7px); /* Ajusta o posicionamento */
+    transition-duration: 0.5s; /* Define a duração da transição */
+    box-shadow: 0px 15px 20px 0px #04151f5d; /* Adiciona uma sombra ao passar o mouse */
+}
